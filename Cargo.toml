@@ -1,0 +1,9 @@
+[package]
+name = "rust-typeface-js"
+version = "0.1.0"
+authors = ["aristotle9 <lanfan.1987@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+freetype = { git = "https://github.com/servo/rust-freetype.git" }
